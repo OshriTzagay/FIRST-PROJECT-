@@ -1,0 +1,23 @@
+#div1 {
+    background-color: yellow;
+    transition: background 2s;
+width: 200px;
+height: 200px;
+}
+
+
+
+#div2 {
+background-color: red;
+width: 500px;
+transition:linear 2s;
+height: 400px;
+
+}
+
+#div1:hover + #div2{
+    background-color: mediumblue;
+    transition:background ;
+    width: 700px;
+   
+}
